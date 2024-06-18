@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#card-three,
+#card-two{
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 40px 40px;
+    border-top-right-radius: 40px 40px;
+}
+
+#btn-choose-first,
+#btn-choose-second {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 20px 20px;
+}
+
+#btn-choose-first,
+#btn-choose-third,
+#btn-choose-second {
+    border: none;
+    font-size: 1.2rem;
+    padding: 20px 0 !important;
+    font-weight: 600;
+}
+
+#btn-choose-first{
+    background-color: rgb(182, 202, 239);
+    color: rgb(106, 84, 221);
+}
+
+#btn-choose-second{
+    background-color: #fff;
+    color: rgb(106, 84, 221);
+}
+
+#btn-choose-third{
+    background-color: #fff;
+    color: rgb(43, 133, 43);
+}
+
+#btn-choose-first:hover{
+    color: #fff;
+    background-color: rgb(88, 86, 86);
+}
+
+#btn-choose-second:hover{
+    color: #fff;
+    background-color: rgb(160, 189, 244);
+}
+
+#btn-choose-third:hover{
+    color: #fff;
+    background-color: rgb(128, 33, 128);
+}
+
+#book-demo,
+#get-started{
+    border: 1px solid;
+    width: 150px;
+    padding: 10px 7px;
+    border-bottom-left-radius: 10px 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#collapseTheme{
+    width: 150px;
+}
+
+#book-demo{
+    border: none;
+    background-color: black;
+    color: #fff;
+}
+
+#get-started{
+    border: none;
+    background-color: light;
+    
+}
+
+#quote{
+    font-size: 2.5rem;
+}
+
+
+@media (max-width: 500px){
+    #quote{
+        font-size: 2rem;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .container{
+        width: 800px;
+    }
+}
+
+@media (min-width: 900px) {
+    .container{
+        width: 1100px;
+    }
+}
